@@ -18,6 +18,12 @@ package from the downloads page:
     Set config.vm.provider.gui=true
     VMware Workstations | File | Scan for Virtual Machines
 ##---------------------------------------------------------------------------------------------------
+choco install git.install
+choco upgrade git.install
+
+choco install packer
+choco upgrade packer
+##---------------------------------------------------------------------------------------------------
 # Edit Vagrantfile
 config.vm.provider "vmware_fusion" do |v|
   v.gui = true
