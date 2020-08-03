@@ -15,9 +15,10 @@ package from the downloads page:
     $ vagrant init hashicorp/precise64
     $ vagrant up --provider vmware_desktop
     $ vagrant up, vagrant ssh, vagrant halt, vagrant destory 
-    config.vm.provider.gui=true
+    Set config.vm.provider.gui=true
+    VMware Workstations | File | Scan for Virtual Machines
 ##---------------------------------------------------------------------------------------------------
-Vagrantfile
+# Edit Vagrantfile
 config.vm.provider "vmware_fusion" do |v|
   v.gui = true
 end
