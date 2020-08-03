@@ -9,6 +9,7 @@ package from the downloads page:
     Install https://www.vagrantup.com/downloads
     Install https://www.vagrantup.com/vmware/downloads.html
     $ vagrant plugin install vagrant-vmware-desktop
+    $ net.exe start vagrant-vmware-utility
     $ vagrant plugin license vagrant-vmware-desktop ~/license.lic
     $ vagrant plugin list
     $ vagrant init hashicorp/precise64
