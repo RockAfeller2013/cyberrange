@@ -8,6 +8,7 @@ package from the downloads page:
 
     Install https://www.vagrantup.com/downloads
     Install https://www.vagrantup.com/vmware/downloads.html
+    SET VAGRANT_DEFAULT_PROVIDER=vmware-desktop
     $ vagrant plugin install vagrant-vmware-desktop
     $ net.exe start vagrant-vmware-utility
     $ vagrant plugin license vagrant-vmware-desktop ~/license.lic
