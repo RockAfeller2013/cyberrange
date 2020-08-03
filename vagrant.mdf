@@ -13,7 +13,13 @@ package from the downloads page:
     $ vagrant plugin list
     $ vagrant init hashicorp/precise64
     $ vagrant up --provider vmware_desktop
-
+    $ vagrant up, vagrant ssh, vagrant halt, vagrant destory 
+    config.vm.provider.gui=true
+##---------------------------------------------------------------------------------------------------
+Vagrantfile
+config.vm.provider "vmware_fusion" do |v|
+  v.gui = true
+end
 ##---------------------------------------------------------------------------------------------------
 
 For more information on plugin installation, please see the
@@ -27,6 +33,7 @@ https://github.com/hashicorp/vagrant/issues/11409#issuecomment-605544959
 https://github.com/hashicorp/vagrant/issues/11742#event-3516750714
 https://github.com/notifications?query=repo%3Ahashicorp%2Fvagrant
 https://github.com/hashicorp/vagrant/issues/11409#issuecomment-591973261
+https://www.vagrantup.com/docs/providers/vmware/configuration.html
 
 
 
