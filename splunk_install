@@ -1,0 +1,10 @@
+uname -r
+groupadd splunk 
+useradd -d /opt/splunk -m -g splunk splunk
+su – splunk 
+tar xvf splunk-8.0.5-a1a6394cc5ae-Linux-x86_64.tgz
+cp -rp splunk/* /opt/splunk/
+chown -R splunk: /opt/splunk/
+su – splunk 
+cd bin 
+./splunk start –accept-license
